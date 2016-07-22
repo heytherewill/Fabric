@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.models']/class[@name='Coordinates']/field[@name='coordinates']" name="name">Coordinats</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.internal']/class[@name='TwitterApiConstants.Errors']/field[@name='ERRORS']" name="name">Erros</attr>
+
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.models']/class[@name='Entity']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.internal.oauth']/class[@name='OAuthService']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='TwitterCore']/method[@name='doInBackground' and count(parameter)=0]" name="name"> JavaDoInBackground </attr>
+	
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='TwitterSession.Serializer']/method[@name='deserialize' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedReturn"> Java.Lang.Object </attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='AppSession.Serializer']/method[@name='deserialize' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedReturn"> Java.Lang.Object</attr>
+</metadata>

@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric", "Fabric\Fabric.csproj", "{5AF165EE-B318-444B-BEF1-2779B9E08CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric.Crashlytics", "Fabric.Crashlytics\Fabric.Crashlytics.csproj", "{EFF4AEC4-BA21-4E03-8D8E-7E21439B421C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric.TwitterCore", "Fabric.TwitterCore\Fabric.TwitterCore.csproj", "{2545C088-770C-4F17-BD61-FE8C78B6020B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF165EE-B318-444B-BEF1-2779B9E08CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF165EE-B318-444B-BEF1-2779B9E08CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF165EE-B318-444B-BEF1-2779B9E08CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF165EE-B318-444B-BEF1-2779B9E08CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF4AEC4-BA21-4E03-8D8E-7E21439B421C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF4AEC4-BA21-4E03-8D8E-7E21439B421C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF4AEC4-BA21-4E03-8D8E-7E21439B421C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF4AEC4-BA21-4E03-8D8E-7E21439B421C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2545C088-770C-4F17-BD61-FE8C78B6020B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2545C088-770C-4F17-BD61-FE8C78B6020B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2545C088-770C-4F17-BD61-FE8C78B6020B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2545C088-770C-4F17-BD61-FE8C78B6020B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

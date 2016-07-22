@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <attr path="/api/package[@name='com.crashlytics.android.beta']/class[@name='DeviceTokenLoader']/method[@name='load' and count(parameter)=1 and parameter[1][@type='android.content.Context']]" name="name"> JavaLoad </attr>
+	
+  <attr path="/api/package[@name='com.crashlytics.android']/class[@name='Crashlytics']/method[@name='doInBackground' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.crashlytics.android.core']/class[@name='CrashlyticsCore']/method[@name='doInBackground' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.crashlytics.android.answers']/class[@name='Answers']/method[@name='doInBackground' and count(parameter)=0]" name="name"> JavaDoInBackground </attr>
+  <attr path="/api/package[@name='com.crashlytics.android.beta']/class[@name='Beta']/method[@name='doInBackground' and count(parameter)=0]" name="name"> JavaDoInBackground </attr>
+  <remove-node path="/api/package[@name='com.crashlytics.android.core']/class[@name='CrashlyticsCore.CrashMarkerCheck']"/>
+</metadata>
