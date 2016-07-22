@@ -7,4 +7,10 @@
   <attr path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityTask']/method[@name='getDependencies' and count(parameter)=0]" name="name">Dependencis</attr>
   <attr path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityAsyncTask']/method[@name='getDependencies' and count(parameter)=0]" name="name">Dependencis</attr>
   <attr path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityFutureTask']/method[@name='getDependencies' and count(parameter)=0]" name="name">Dependencis</attr>
+
+  <attr path="/api/package[@name='io.fabric.sdk.android']/class[@name='Fabric']/method[@name='with' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='io.fabric.sdk.android.Kit...']]/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='io.fabric.sdk.android']/class[@name='Fabric']/method[@name='with' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='io.fabric.sdk.android.Kit...']]/parameter[@name='p1']" name="name">kits</attr>
+
+  <attr path="/api/package[@name='io.fabric.sdk.android']/class[@name='Fabric.Builder']/method[@name='kits' and count(parameter)=1 and parameter[1][@type='io.fabric.sdk.android.Kit...']]/parameter[@name='p0']" name="name"> kits </attr> 
+
 </metadata>

@@ -1,0 +1,5 @@
+com.twitter.sdk.android.core
+com.twitter.sdk.android.core.identity
+com.twitter.sdk.android.core.models
+com.twitter.sdk.android.core.services
+com.twitter.sdk.android.core.services.params
