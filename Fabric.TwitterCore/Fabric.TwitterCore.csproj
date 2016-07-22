@@ -35,7 +35,7 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <JavaDocPaths>JavaDocs/</JavaDocPaths>
+    <Java7DocPaths>JavaDocs/</Java7DocPaths>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
