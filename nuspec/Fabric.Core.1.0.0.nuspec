@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Fabric.Core</id>
+        <version>1.0.0</version>
+        <title>Fabric.Core</title>
+        <authors>William Barbosa</authors>
+        <projectUrl>https://github.com/willsb/Fabric</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/willsb/Fabric/e69d2bda6bcdad112af26bfb223ec22ff349ed11/nuspec/Icons/Fabric.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Base package for Fabric Kits. Don't install it by itself.</description>
+    </metadata>
+    <files>
+        <file src="\\Mac\Home\Projects\Fabric\Fabric\bin\Release\Fabric.dll" target="lib\Fabric.dll" />
+    </files>
+</package>
