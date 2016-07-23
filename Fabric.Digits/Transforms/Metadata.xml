@@ -1,10 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='AuthConfig']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='CountryInfo']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsActivityDelegateImpl']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsControllerImpl']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsErrorCodes']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='Digits']/method[@name='doInBackground' and count(parameter)=0]" name="name"> JavaDoInBackground </attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsSession.Serializer']/method[@name='deserialize' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="name"> JavaDeserialize</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsSession.Serializer']/method[@name='serialize' and count(parameter)=1 and parameter[1][@type='com.digits.sdk.android.DigitsSession']]" name="name"> JavaSerialize </attr>
+	
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/interface[@name='ActivityLifecycle']" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/interface[@name='DigitsController']" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/interface[@name='ErrorCodes']" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='failure' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.TwitterException']]" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='success' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.Result&lt;T&gt;']]" />  
 </metadata>
