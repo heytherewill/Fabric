@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Fabric.Digits</id>
+        <version>1.1.0</version>
+        <title>Fabric.Digits</title>
+        <authors>William Barbosa</authors>
+        <projectUrl>https://github.com/willsb/Fabric/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/willsb/Fabric/master/nuspec/Icons/Digits.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Xamarin.Android bindings for Twitter Digits</description>
+        <tags>xamarin xamarin.android fabric twitter-fabric twitter digits twitter-digits</tags>
+        <dependencies>
+            <dependency id="Fabric.Core" version="1.1.0" />
+            <dependency id="Fabric.TwitterCore" version="1.1.0" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="22.2.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="\\Mac\Home\Projects\Fabric\Fabric.Digits\bin\Release\Fabric.Digits.dll" target="lib\Fabric.Digits.dll" />
+    </files>
+</package>

@@ -2,15 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Fabric.TwitterCore</id>
-        <version>1.0.0</version>
-        <title>TwitterCore</title>
+        <version>1.1.0</version>
+        <title>Fabric.TwitterCore</title>
         <authors>William Barbosa</authors>
         <projectUrl>https://github.com/willsb/Fabric/</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/willsb/Fabric/e69d2bda6bcdad112af26bfb223ec22ff349ed11/nuspec/Icons/TwitterCore.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Xamarin Bindings for TwitterCore</description>
+        <tags>xamarin xamarin.android fabric twitter-fabric twitter twitter-core</tags>
         <dependencies>
-            <dependency id="Fabric.Core" version="1.0.0" />
+            <dependency id="Fabric.Core" version="1.1.0" />
         </dependencies>
     </metadata>
     <files>

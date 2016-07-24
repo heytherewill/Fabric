@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Fabric">
-      <HintPath>..\packages\Fabric.Core.1.0.0\lib\Fabric.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,7 +63,10 @@
     <EmbeddedJar Include="Jars\crashlytics-core-2.3.8.jar" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Fabric\Fabric.csproj">
+      <Project>{5AF165EE-B318-444B-BEF1-2779B9E08CA0}</Project>
+      <Name>Fabric</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

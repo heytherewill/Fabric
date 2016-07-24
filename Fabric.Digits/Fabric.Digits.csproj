@@ -42,17 +42,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Fabric">
-      <HintPath>..\packages\Fabric.Core.1.0.0\lib\Fabric.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Android.Support.v4">
       <HintPath>..\packages\Xamarin.Android.Support.v4.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
-    </Reference>
-    <Reference Include="Fabric.TwitterCore">
-      <HintPath>..\packages\Fabric.TwitterCore.1.0.0\lib\Fabric.TwitterCore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +67,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Additions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fabric\Fabric.csproj">
+      <Project>{5AF165EE-B318-444B-BEF1-2779B9E08CA0}</Project>
+      <Name>Fabric</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fabric.TwitterCore\Fabric.TwitterCore.csproj">
+      <Project>{2545C088-770C-4F17-BD61-FE8C78B6020B}</Project>
+      <Name>Fabric.TwitterCore</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
