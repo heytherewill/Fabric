@@ -7,6 +7,16 @@ There are multiple implementations of bindings for Twitter Fabric. If you need t
 
 This project's purpose is to make the usage of Fabric modular and simple to extend. If you ever need bindings for a new kit, you can do so by referencing the `Fabric.Core` package. Like that, those consuming your bindings won't have to make namespace aliases if they need your kit and someone else's.
 
+#Building
+
+Extract the Javadocs before building:
+
+``jar -tvf javadoc-file-name.jar``
+
+Delete them afterwards:
+
+``path/to/javadocs/ ! -name *.jar -delete``
+
 # Installation
 
 Install via NuGet using:
@@ -18,6 +28,10 @@ Install via NuGet using:
 [Crashlytics](https://www.nuget.org/packages/Fabric.Crashlytics/)
 
 ``PM> Install-Package Fabric.Crashlytics``
+
+[Digits](https://www.nuget.org/packages/Fabric.Digits/)
+
+``PM> Install-Package Fabric.Digits``
 
 # Thanks
 Special thanks to [@azchohfi](https://github.com/azchohfi)'s [Crashlytics.Droid](https://github.com/azchohfi/Crashlytics.Droid) and [@phischu](https://github.com/phischu/Android-Twitter-Core-Xamarin)'s [Android-Twitter-Core-Xamarin](https://github.com/phischu/Android-Twitter-Core-Xamarin). I've always used those libraries, but needing to use them both in the same project was what made me create this project.
